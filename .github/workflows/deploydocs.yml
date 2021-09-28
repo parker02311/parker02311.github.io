@@ -1,0 +1,22 @@
+name: MkDocs Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "MkDocs Deploy"
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Deploy docs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material httpx mkdocs-mermaid2-plugin
+      - run: mkdocs gh-deploy --force

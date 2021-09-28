@@ -1,0 +1,42 @@
+site_name: RoPython Documentation
+site_url: https://parker02311.github.io/ropython/
+site_description: 'Documentation for RoPython'
+site_author: 'parker02311'
+docs_dir: pages/
+repo_name: 'parker02311/ropython'
+repo_url: 'https://github.com/parker02311/ropython'
+
+theme:
+  name: 'material'
+  features:
+    - navigation.tabs
+  palette:
+    scheme: slate
+    primary: black
+    accent: green
+
+plugins:
+  - search
+  - tags
+  - mermaid2:
+      arguments:
+        theme: dark
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - pymdownx.tabbed
+  - footnotes
+  - def_list
+  - pymdownx.tasklist
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+  - pymdownx.highlight:
+      guess_lang: false
+
+nav:
+  - Home: index.md
