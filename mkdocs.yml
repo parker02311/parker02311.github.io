@@ -39,3 +39,5 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - RPH: https://redon-tech.github.io/RPH-Docs/
+  - RoPython: /ropython
