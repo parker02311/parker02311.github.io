@@ -1,10 +1,10 @@
-site_name: RoPython Documentation
-site_url: https://parker02311.github.io/ropython/
-site_description: 'Documentation for RoPython'
+site_name: parker02311
+site_url: https://parker02311.github.io/
+site_description: 'Personal page for parker02311'
 site_author: 'parker02311'
 docs_dir: pages/
-repo_name: 'parker02311/ropython'
-repo_url: 'https://github.com/parker02311/ropython'
+repo_name: 'parker02311/parker02311.github.io'
+repo_url: 'https://github.com/parker02311/parker02311.github.io'
 
 theme:
   name: 'material'
