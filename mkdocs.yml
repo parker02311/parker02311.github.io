@@ -24,6 +24,15 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/parker02311
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/parker02311
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/parker023111
+
 plugins:
   - search
   - mermaid2:
